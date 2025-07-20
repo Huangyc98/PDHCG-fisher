@@ -56,7 +56,7 @@ end
 
 end
 function PDHG_gpu_adaptive_restart(d_problem::cuFisherproblem, iteration_limit=20000000)
-    #问题输入
+    
     m = d_problem.m
     n = d_problem.n
     w = d_problem.w
